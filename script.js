@@ -291,15 +291,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const studentsTableBody = document.getElementById("studentsTableBody");
 
     const openPdfWithPassword = (url, password) => {
-        // Buscar el estudiante por contraseña
-        const student = students.find(student => student.password === password);
-        if (student) {
-            // Abrir el PDF en una nueva ventana si la contraseña es correcta
-            window.open(url, "_blank");
-        } else {
-            alert("Contraseña incorrecta");
-        }
-    };
+    // Buscar el estudiante por contraseña
+    const student = students.find(student => student && student.password === password);
+    if (student) {
+        // Abrir el PDF en una nueva ventana si la contraseña es correcta
+        window.open(url, "_blank");
+    } else {
+        alert("Contraseña incorrecta");
+    }
+};
 
     const renderStudents = (students) => {
         studentsTableBody.innerHTML = ""; // Limpiar tabla
