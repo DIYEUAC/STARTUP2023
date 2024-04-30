@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             "name": "LAYME SONCCO, BLANCA NELIDA",
-            "certificateURL": "https://drive.google.com/file/d/1a3CeGwzsbOVr4aPCQ1yOqfi_07XY3Wg3/view?usp=sharing",
+            "certificateURL": "https://drive.google.com/file/d/1IEU3THMuVuSj8X9TqXAjVduTE4FMou7-/view?usp=sharing",
             "password": "021100576h"
         },
         {
@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             "name": "CALDERON GONZALES, WERNER ALFONSO",
-            "certificateURL": "https://drive.google.com/file/d/1PeOP4pqU9AjNwnbf4ay3afcyG4BKZQCF/view?usp=sharing",
+            "certificateURL": "https://drive.google.com/file/d/15BjIs5De_Z8HbNOte1Ie1ACV7Oeq1AHh/view?usp=sharing",
             "password": "wcalderon"
         },
         { 
