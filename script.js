@@ -291,13 +291,18 @@ document.addEventListener("DOMContentLoaded", function() {
     const studentsTableBody = document.getElementById("studentsTableBody");
 
     const openPdfWithPassword = (url, password) => {
+    if (!password) {
+        alert("Por favor, ingrese su código institucional.");
+        return;
+    }
+
     // Buscar el estudiante por contraseña
     const student = students.find(student => student && student.password === password);
     if (student) {
         // Abrir el PDF en una nueva ventana si la contraseña es correcta
         window.open(url, "_blank");
     } else {
-        alert("Contraseña incorrecta");
+        alert("Código incorrecto.");
     }
 };
 
